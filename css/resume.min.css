@@ -3,7 +3,35 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
- 
+ /* Styles for laptops and larger screens */
+ #sideNav .navbar-brand {
+       display: flex;
+       margin: auto auto 0;
+       padding: .5rem;
+ }
+
+ #sideNav .navbar-brand .img-profile {
+       max-width: 10rem;
+       max-height: 10rem;
+       border: .5rem solid rgba(255, 255, 255, .2);
+ }
+
+ /* Styles for mobile devices */
+ @media (max-width: 767px) {
+       #sideNav .navbar-brand {
+             display: block;
+             /* Change to block display for mobile */
+             text-align: center;
+             /* Center align the image */
+       }
+
+       #sideNav .navbar-brand .img-profile {
+             display: inline-block;
+             /* Change to inline-block display for mobile */
+             margin: 0 auto;
+             /* Center align the image */
+       }
+ }
  body {
        font-family: 'Roboto Slab', serif;
        line-height: 1.6;
