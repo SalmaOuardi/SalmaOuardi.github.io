@@ -60,7 +60,7 @@ h2 {
     top: 0;
     left: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 17rem;
     height: 100vh; }
     #sideNav .navbar-brand {
@@ -78,7 +78,7 @@ h2 {
       width: 100%;
       margin-bottom: auto; }
       #sideNav .navbar-collapse .navbar-nav {
-        flex-direction: column;
+        flex-direction: row;
         width: 100%; }
         #sideNav .navbar-collapse .navbar-nav .nav-item {
           display: block; }

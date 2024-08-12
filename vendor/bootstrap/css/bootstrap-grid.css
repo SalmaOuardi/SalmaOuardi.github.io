@@ -1210,8 +1210,8 @@ html {
 
 @media (min-width: 768px) {
   .flex-md-row {
-    -ms-flex-direction: row !important;
-        flex-direction: row !important;
+    -ms-flex-direction: column !important;
+        flex-direction: column !important;
   }
   .flex-md-column {
     -ms-flex-direction: column !important;
