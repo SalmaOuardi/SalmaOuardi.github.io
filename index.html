@@ -120,71 +120,69 @@
   <div class="my-auto">
     <h2 class="mb-5">2 Years of Work Experience</h2>
 
-    <div class="resume-item d-flex flex-column flex-md-row mb-5 purple-border ryte-ai">
-      <div class="resume-content mr-auto">
-        <div class="company-logo-container">
-          <img src="img/ryte.jpg" alt="Ryte AI Logo" class="company-logo">
-        </div>
-        <h3 class="mb-0">AI Engineer | Full-Time (1 year)</h3>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">September 2023 - Present</span>
-        </div>
-        <div class="subheading mb-3">
-          Ryte AI - Healthcare Startup - Paris, France
-        </div>
-        <p>
-          Ryte AI leverages big data to drive insights into healthcare efficiency and patient care, with projects
-          spanning
-          from entity resolution to advanced machine learning model development and integration of healthcare data
-          sources. The company focuses on transforming healthcare delivery by developing advanced analytics solutions
-          for both B2C and B2B
-          markets.
-        </p>
-        <div class="resume-details">
-          <div class="internship-tasks">
-            <h4>Role Summary</h4>
-            <p>
-              As an AI/NLP Engineer at Ryte AI, I led the development and optimization of machine learning models and
-              analytics pipelines, harnessing big data to drive healthcare insights and data-driven decision-making.
-            </p>
-          </div>
-          <div class="internship-tasks">
-            <h4>Key Tasks</h4>
-            <ul>
-              <li><strong>Advanced Model Development and Optimization:</strong></li>
-              <ul>
-                <li>Developed extractive and abstractive summarization models using large language models, ensuring
-                  diversity and quality across a large corpus of reviews.</li>
-                <li>Utilized LightGBM with Hyperopt for hyperparameter tuning, improving model accuracy over baseline.
-                </li>
-              </ul>
-              <li><strong>Entity Resolution and Data Processing:</strong></li>
-              <ul>
-                <li>Spearheaded the design and implementation of entity resolution pipelines, reducing processing time
-                  from 3 days to 1 hour and increasing F1-Score from 77% to 98% on clinical datasets.</li>
-              </ul>
-              <li><strong>Scalable Data Transformation:</strong></li>
-              <ul>
-                <li>Engineered scalable Spark-based data transformation codebases, optimizing performance for datasets
-                  exceeding 10 TB, and using Scala UDFs for complex data processing.</li>
-              </ul>
-              <li><strong>Azure and Cloud Integration:</strong></li>
-              <ul>
-                <li>Leveraged Azure products, including Azure Databricks, Azure VMs, and Azure Storage Manager, to
-                  deploy scalable data processing and machine learning solutions.</li>
-                <li>Streamlined workflows using Azure DevOps, enhancing collaboration and deployment efficiency.</li>
-              </ul>
-              <li><strong>Active Learning and Data Validation:</strong></li>
-              <ul>
-                <li>Incorporated active learning techniques into the pipeline, improving model adaptability and
-                  efficiency through a Streamlit web application with a PostgreSQL backend.</li>
-                <li>Implemented Test-Driven Development (TDD) using PyTest and Pydantic, ensuring robust data validation
-                  and reliable model performance.</li>
-              </ul>
-            </ul>
-          </div>
-        </div>
+<div class="resume-item d-flex flex-column flex-md-row mb-5 purple-border ryte-ai">
+  <div class="resume-content mr-auto">
+    <div class="company-logo-container">
+      <img src="img/ryte.jpg" alt="Ryte AI Logo" class="company-logo">
+    </div>
+    <h3 class="mb-0">AI Engineer | Full-Time (1 year)</h3>
+    <div class="resume-date text-md-right">
+      <span class="text-primary">September 2023 – Present</span>
+    </div>
+    <div class="subheading mb-3">
+      Ryte AI – Healthcare Startup – Paris, France
+    </div>
+    <p>
+      Contributed to both applied NLP/LLM development (RyteGPT) and traditional ML pipelines in a high-scale healthcare
+      data environment. Built robust data and ML systems on Azure, combining practical engineering with research-driven
+      prototyping.
+    </p>
+    <div class="resume-details">
+      <div class="internship-tasks">
+        <h4>Key Contributions</h4>
+        <ul>
+          <li><strong>Entity Resolution Pipeline:</strong> Led the redesign of patient-provider matching pipelines,
+            improving F1 score from 77% to 98% and reducing processing time from 3 days to 1 hour. Techniques used
+            included fuzzy logic, TF-IDF, and custom heuristics.</li>
+
+          <li><strong>Big Data & Azure Engineering:</strong> Developed Spark-based pipelines processing 10+ TB of
+            healthcare data. Used Scala UDFs for complex transformations and deployed solutions with Azure Databricks,
+            VMs, and Blob Storage.</li>
+
+          <li><strong>ML Testing & Reliability:</strong> Built robust validation layers using PyTest and Pydantic.
+            Enforced TDD and schema checks across all core pipelines, achieving 100% test coverage in critical services.
+          </li>
+
+          <li><strong>RyteGPT – NLP & LLM Modules:</strong></li>
+          <ul>
+            <li><strong>Intent Classification:</strong> Fine-tuned Roberta on synthetic data for 4-class intent
+              detection (COR, INC, OOC, APPROPRIATE). Deployed to Azure Vertex AI with >90% accuracy.</li>
+            <li><strong>Entity Extraction:</strong> Deployed LLaMA 3 and Mistral 7B models using vLLM + AWQ
+              quantization. Designed IOB-tag-based evaluation pipeline using spaCy to track token/segment accuracy and
+              F1.</li>
+            <li><strong>Entity Linking:</strong> Built semantic search over medical terms using BioLORD embeddings +
+              reranking with a cross-encoder. Achieved high top-k precision and improved strict match accuracy using
+              GPT-4-generated variants.</li>
+            <li><strong>Dataset Curation:</strong> Generated and labeled 1,000+ synthetic medical queries. Collaborated
+              with MDs via Prodigy and GPT for multi-entity labeling (disease, procedure, specialty, location,
+              distance).</li>
+          </ul>
+
+          <li><strong>ETL & Integration:</strong> Ingested and normalized data from external APIs and sources like
+            PubMed, CMS, AHA, LexisNexis, and ClinicalTrials.gov. Implemented scalable deduplication, mapping, and
+            linking workflows.</li>
+
+          <li><strong>CI/CD & Deployment:</strong> Used Azure DevOps for version control and release pipelines. Managed
+            GPU workloads for quantized model inference. Tracked model performance using MLflow and DVC.</li>
+
+          <li><strong>R&D Initiatives:</strong> Prototyped new architectures (e.g. contrastive learning for entity
+            resolution, multi-modal queries) and presented findings to product and engineering teams.</li>
+        </ul>
       </div>
+    </div>
+  </div>
+</div>
+
     </div>
 
 
@@ -412,35 +410,39 @@
   <div class="my-auto">
     <h2 class="mb-5">Skills</h2>
 
-    <div class="skills-container">
-      <!-- Soft Skills Card -->
-      <div class="skills-card">
-        <div class="subheading"><i class="fas fa-users"></i> Soft Skills</div>
-        <ul class="skills-list">
-          <li><strong>Communication:</strong> Clearly explain complex ideas.</li>
-          <li><strong>Problem-solving:</strong> Find efficient solutions.</li>
-          <li><strong>Collaboration:</strong> Work well with teams (AGILE, Scrum)</li>
-          <li><strong>Adaptability:</strong> Learn new tools quickly.</li>
-          <li><strong>Attention to Detail:</strong> Ensure high data quality.</li>
-          <li><strong>Critical Thinking:</strong> Extract insights from data.</li>
-        </ul>
-      </div>
+<div class="skills-container">
+  <!-- Skills Card -->
+  <div class="skills-card">
+    <div class="subheading"><i class="fas fa-laptop-code"></i> Skills</div>
+    <ul class="skills-list">
+      <li><strong>Languages & Data:</strong> Python (NumPy, Pandas, Scikit-learn, spaCy, PySpark), SQL, Bash</li>
+      <li><strong>Machine Learning & NLP:</strong> CNNs, RNNs, LLMs, Active Learning, Transformers,
+        Token Classification, Entity Resolution & Linking, IOB Tagging, AutoML, Clustering</li>
+      <li><strong>Deep Learning & LLMs:</strong> PyTorch, LLaMA, Mistral, Roberta, GPT-3.5/4, BioLORD</li>
+      <li><strong>Data Engineering & Cloud:</strong> Spark, Azure (Databricks, VMs, Blob Storage, Vertex AI), GCP
+        (BigQuery ML, APIs), Airflow</li>
+      <li><strong>MLOps & DevOps:</strong> MLflow, DVC, PyTest, Pydantic, CI/CD, Docker, vLLM</li>
+      <li><strong>Tools:</strong> Git, GitHub, Jupyter, VS Code, Prodigy, Postman</li>
+    </ul>
+  </div>
 
-      <!-- Technical Skills Card -->
-      <div class="skills-card">
-        <div class="subheading"><i class="fas fa-laptop-code"></i> Technical Skills</div>
-        <ul class="skills-list">
-          <li><strong>Programming:</strong> Python (NumPy, Pandas, scikit-learn, spaCy), Scala, SQL, NoSQL, Bash.</li>
-          <li><strong>Machine Learning:</strong> Supervised & Unsupervised Learning, AutoML.</li>
-          <li><strong>Deep Learning & AI:</strong> Transformers, LLMs, PyTorch, TensorFlow, Hugging Face.</li>
-          <li><strong>NLP:</strong> Entity resolution, Summarization, Wav2Vec2 for ASR.</li>
-          <li><strong>Data Analysis & Statistics:</strong> Data modeling, Predictive analytics.</li>
-          <li><strong>Big Data:</strong> Apache Spark, Databricks, Oracle Exadata, Hadoop.</li>
-          <li><strong>Cloud & DevOps:</strong> Microsoft Azure, GCP, Docker, CI/CD, Terraform.</li>
-          <li><strong>Tools & Platforms:</strong> Git, GitHub, MLflow, DVC.</li>
-          <li><strong>Data Visualization:</strong> PowerBI, Tableau, Matplotlib, Seaborn.</li>
-        </ul>
-      </div>
+  <!-- Soft + Data Science Skills Card -->
+  <div class="skills-card">
+    <div class="subheading"><i class="fas fa-users"></i> Soft Skills</div>
+    <ul class="skills-list">
+      <li><strong>Problem Solving:</strong> Designing efficient ML pipelines and resolving model issues</li>
+      <li><strong>Analytical Thinking:</strong> Interpreting data patterns and translating insights into decisions</li>
+      <li><strong>Statistical Reasoning:</strong> Applying statistical methods to validate hypotheses and model
+        performance</li>
+      <li><strong>Communication:</strong> Presenting technical results clearly to diverse stakeholders</li>
+      <li><strong>Collaboration:</strong> Working in Agile teams with product managers, data engineers, and researchers
+      </li>
+      <li><strong>Initiative:</strong> Prototyping new models and exploring state-of-the-art techniques</li>
+    </ul>
+  </div>
+  </div>
+
+
 
       <!-- Languages Card -->
       <div class="skills-card">
@@ -466,9 +468,7 @@
         <div class="tech-logo">
           <img src="img/pytorch.png" alt="PyTorch" title="PyTorch">
         </div>
-        <div class="tech-logo">
-          <img src="img/tensorflow.png" alt="TensorFlow" title="TensorFlow">
-        </div>
+       
         <div class="tech-logo">
           <img src="img/hugging.png" alt="HuggingFace" title="HuggingFace">
         </div>
