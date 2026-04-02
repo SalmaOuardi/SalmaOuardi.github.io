@@ -40,8 +40,8 @@ export const workProjects: Project[] = [
       fr: "Assistant IA remplaçant les rapports manuels de chantier. Les opérateurs dictent, le système génère des rapports DOCX structurés.",
     },
     longDescription: {
-      en: "Site Reporter is an AI MVP that replaces manual construction site report writing. Workers speak their observations; the system transcribes via Azure OpenAI, extracts structured data with Mistral LLM, and generates a formatted DOCX report via FastAPI.",
-      fr: "Site Reporter est un MVP IA qui remplace la rédaction manuelle des rapports de chantier.",
+      en: "Site Reporter is an MVP built to replace manual construction site report writing. Workers speak their observations; the system transcribes, extracts structured data with Mistral, and generates a DOCX report. Validated with domain users but not yet in daily production.",
+      fr: "Site Reporter est un MVP conçu pour remplacer la rédaction manuelle des rapports de chantier. Validé avec des utilisateurs métier mais pas encore en production quotidienne.",
     },
     tags: ["Azure OpenAI", "Mistral", "FastAPI", "Speech-to-text"],
     highlights: {
@@ -64,12 +64,12 @@ export const workProjects: Project[] = [
     company: "OnePoint",
     period: "2025",
     description: {
-      en: "AI platform scoring document corpus RAG-readiness — detects duplicates, outliers, and structural anomalies at scale.",
-      fr: "Plateforme IA évaluant la RAG-readiness des corpus documentaires — détection de doublons, anomalies et valeurs aberrantes à l'échelle.",
+      en: "Internal tool for scoring document corpus RAG-readiness — detects duplicates, outliers, and structural anomalies before deployment.",
+      fr: "Outil interne pour évaluer la RAG-readiness des corpus documentaires — détection de doublons, anomalies et valeurs aberrantes avant déploiement.",
     },
     longDescription: {
-      en: "DocuScore helps enterprises understand if their document corpus is ready for RAG deployment. It detects duplicates, outdated documents, and outliers using embedding similarity pipelines.",
-      fr: "DocuScore aide les entreprises à comprendre si leur corpus documentaire est prêt pour un déploiement RAG.",
+      en: "An internal tool that helps teams assess whether a document corpus is ready for RAG deployment. Detects duplicates, outdated documents, and outliers using embedding similarity.",
+      fr: "Un outil interne aidant les équipes à évaluer si un corpus documentaire est prêt pour un déploiement RAG.",
     },
     tags: ["Embeddings", "Vector Search", "Python", "FastAPI"],
     highlights: {
@@ -178,12 +178,12 @@ export const personalProjects: Project[] = [
     type: "personal",
     period: "2025",
     description: {
-      en: "Multi-agent system with intelligent tool routing, web search, calculations, and conversational memory. Production-ready architecture.",
-      fr: "Système multi-agents avec routage intelligent, recherche web, calculs et mémoire conversationnelle.",
+      en: "Multi-agent system with tool routing, web search, calculations, and conversational memory — built to learn LangGraph internals.",
+      fr: "Système multi-agents avec routage d'outils, recherche web, calculs et mémoire conversationnelle — construit pour apprendre LangGraph.",
     },
     longDescription: {
-      en: "A multi-agent system built with LangGraph featuring intelligent tool routing, web search, calculations, and conversational memory.",
-      fr: "Un système multi-agents construit avec LangGraph, avec routage intelligent et mémoire conversationnelle.",
+      en: "A learning project exploring LangGraph's StateGraph API — conditional routing, tool agents, and memory persistence.",
+      fr: "Un projet d'apprentissage explorant l'API StateGraph de LangGraph — routage conditionnel, agents d'outils et persistance mémoire.",
     },
     tags: ["LangGraph", "Agentic AI", "Mistral", "Ollama"],
     github: "https://github.com/SalmaOuardi/langgraph-multiagent",

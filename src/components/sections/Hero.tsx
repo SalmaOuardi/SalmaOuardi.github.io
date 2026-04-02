@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { BookOpen, Github, Linkedin } from "lucide-react";
 
-const roles = ["ML Engineer", "NLP Specialist", "LLM Builder", "RAG Architect"];
+const roles = ["ML Engineer", "NLP Engineer", "LLM Builder", "Systems Builder"];
 
 const floatingSnippets = [
   { text: "import torch", top: "10%", left: "5%", delay: 0 },
@@ -119,15 +119,15 @@ export default function Hero() {
           className="text-text-secondary leading-relaxed max-w-2xl mx-auto mb-10"
         >
           <span className="lang-en-text">
-            ML engineer with 3 years of experience. I build things, break
-            things, and rebuild them better. Current side quest: build a whole
-            computer (with all fingers still intact).
+            ML Engineer focused on NLP &amp; LLMs. I build retrieval and
+            language systems that go from prototype to production — used by
+            lawyers, doctors, and construction teams.
           </span>
           <span className="lang-fr-text hidden">
-            Ingénieure ML avec 3 ans d&apos;expérience. Je construis des choses,
-            je casse des choses, puis je les reconstruis mieux. Quête du
-            moment : construire un ordinateur complet (en gardant tous mes
-            doigts intacts).
+            Ingénieure ML spécialisée en NLP et LLMs. Je construis des
+            systèmes de retrieval et de langage qui passent du prototype à la
+            production — utilisés par des juristes, médecins et équipes de
+            chantier.
           </span>
         </motion.p>
 
