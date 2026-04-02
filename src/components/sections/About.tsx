@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const stats = [
-  { value: "3", label: "Years Experience" },
-  { value: "5+", label: "Production AI Systems" },
-  { value: "10+ TB", label: "Data Processed" },
+  { value: "3", label: "Years in ML" },
+  { value: "NLP & LLMs", label: "Focus" },
+  { value: "Healthcare & Legal", label: "Domains" },
 ];
 
 const fadeInUp = {
@@ -68,30 +68,28 @@ export default function About() {
 
             <p className="text-text-secondary leading-relaxed">
               <span className="lang-en-text">
-                I&apos;m a Paris-based ML engineer with 3 years of experience,
-                and I love building stuff end-to-end. I&apos;m also a puzzle
-                addict, the kind of person who says &quot;one last try&quot; and
-                then notices it&apos;s 2:33am. Current side quest: build a whole
-                computer. Haven&apos;t touched metal yet, but that chapter is
-                loading ... I&apos;m fascinated by how the brain works and how
-                nature designs elegant systems. I strongly believe human
-                innovation keeps borrowing from nature&apos;s playbook.
-                I&apos;m also into history and geopolitics, because context is
-                everything.
+                I&apos;m a Paris-based ML engineer working on NLP and LLM
+                systems. At OnePoint, I build legal and construction AI —
+                RAG pipelines, evaluation, and retrieval optimization for
+                systems used by real end users. Before that, I was part of
+                the NLP team at Ryte AI (healthtech), where I contributed to
+                entity extraction, intent classification, and data pipelines.
+                I&apos;m still early in my career and learning a lot — what I
+                care most about is building things that actually work in
+                production, not just in notebooks.
               </span>
               <span className="lang-fr-text hidden">
-                Je suis une ingénieure ML basée à Paris avec 3 ans
-                d&apos;expérience, et j&apos;aime construire des choses de bout
-                en bout. Je suis aussi accro aux puzzles, du genre &quot;encore
-                un essai&quot; puis je remarque qu&apos;il est 2 h 33. Quête du
-                moment : construire un ordinateur complet. Je n&apos;ai pas
-                encore touché le métal, mais ce chapitre est en cours de
-                chargement. Je suis fascinée par le fonctionnement du cerveau et
-                par la manière dont la nature conçoit des systèmes élégants. Je
-                crois fortement que l&apos;innovation humaine emprunte
-                constamment à la nature. Je suis aussi passionnée
-                d&apos;histoire et de géopolitique, parce que le contexte
-                explique tout.
+                Je suis ingénieure ML basée à Paris, spécialisée en NLP et
+                LLMs. Chez OnePoint, je travaille sur des systèmes IA
+                juridiques et chantier — pipelines RAG, évaluation et
+                optimisation du retrieval pour des utilisateurs réels. Avant,
+                j&apos;ai fait partie de l&apos;équipe NLP de Ryte AI
+                (healthtech), où j&apos;ai contribué à l&apos;extraction
+                d&apos;entités, la classification d&apos;intention et les
+                pipelines de données. Je suis encore au début de ma carrière
+                et j&apos;apprends beaucoup — ce qui m&apos;importe le plus,
+                c&apos;est de construire des choses qui fonctionnent vraiment
+                en production, pas seulement dans des notebooks.
               </span>
             </p>
           </motion.div>

@@ -107,8 +107,8 @@ const companies: Company[] = [
     },
     location: "Paris, France",
     summary: {
-      en: "Built healthcare AI systems from modeling to deployment, evaluation, and data pipelines at scale.",
-      fr: "Construction de systèmes IA santé du modeling au déploiement, à l'évaluation et aux pipelines data à grande échelle.",
+      en: "Part of the NLP team building healthcare AI — contributed to entity extraction, classification, data pipelines, and model evaluation.",
+      fr: "Membre de l'équipe NLP construisant des systèmes IA santé — contribution à l'extraction d'entités, la classification, les pipelines data et l'évaluation de modèles.",
     },
     techStack: [
       "RoBERTa",
@@ -122,28 +122,28 @@ const companies: Company[] = [
     ],
     achievements: [
       {
-        en: "Transformer intent classification (RoBERTa), >90% accuracy on Vertex AI",
-        fr: "Classification d'intentions par Transformer (RoBERTa), >90% de précision sur Vertex AI",
+        en: "Contributed to intent classification with RoBERTa on Vertex AI",
+        fr: "Contribution à la classification d'intentions avec RoBERTa sur Vertex AI",
       },
       {
-        en: "Multi-strategy entity extraction: LLaMA 3 + Mistral 7B + spaCy NER",
-        fr: "Extraction d'entités multi-stratégie : LLaMA 3 + Mistral 7B + spaCy NER",
+        en: "Worked on entity extraction pipeline using LLaMA 3, Mistral 7B, and spaCy NER",
+        fr: "Travail sur le pipeline d'extraction d'entités avec LLaMA 3, Mistral 7B et spaCy NER",
       },
       {
-        en: "Semantic entity linking: BioLORD embeddings + cross-encoder reranking",
-        fr: "Liage sémantique d'entités : embeddings BioLORD + reranking cross-encoder",
+        en: "Contributed to entity linking with BioLORD embeddings and cross-encoder reranking",
+        fr: "Contribution au liage d'entités avec embeddings BioLORD et reranking cross-encoder",
       },
       {
-        en: "Entity resolution rework: F1 77% -> 98%, runtime 3 days -> ~1 hour",
-        fr: "Refonte d'entity resolution : F1 77% -> 98%, temps de calcul de 3 jours -> ~1 heure",
+        en: "Team reworked entity resolution pipeline — F1 improved from 77% to 98%",
+        fr: "Refonte en équipe du pipeline d'entity resolution — F1 amélioré de 77% à 98%",
       },
       {
-        en: "Spark data pipelines ~10+ TB on Azure Databricks with Scala UDFs",
-        fr: "Pipelines de données Spark (~10+ To) sur Azure Databricks avec UDFs Scala",
+        en: "Helped build Spark data pipelines on Azure Databricks",
+        fr: "Contribution aux pipelines de données Spark sur Azure Databricks",
       },
       {
-        en: "CI/CD on Azure DevOps; MLflow + DVC tracking; vLLM + AWQ inference",
-        fr: "CI/CD sur Azure DevOps ; suivi MLflow + DVC ; inférence vLLM + AWQ",
+        en: "Worked with MLflow, DVC for tracking; vLLM for inference",
+        fr: "Utilisation de MLflow, DVC pour le suivi ; vLLM pour l'inférence",
       },
     ],
   },
