@@ -145,8 +145,8 @@ export default function Hero() {
             View Projects
           </a>
           <a
-            href="/docs/ML Engineer SO.pdf"
-            download
+            href="/docs/Salma OUARDI CV.pdf"
+            download="Salma OUARDI CV.pdf"
             className="px-6 py-3 border border-white/10 hover:border-accent text-text-secondary hover:text-accent rounded-lg transition-all duration-200"
           >
             Download CV
